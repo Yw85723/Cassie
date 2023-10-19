@@ -31,6 +31,6 @@ cacheSolve <- function(x, ...) {
 # Testing my function
 mdum <- matrix(1:4,2,2)
 mdum
-mdum1 <- makeCacheMatrix(m)
-mdum2 <- cacheSolve(m1)
+mdum1 <- makeCacheMatrix(mdum)
+mdum2 <- cacheSolve(mdum1)
 mdum2
